@@ -22,3 +22,13 @@ A lightweight, GPU-accelerated question answering system designed for clinical c
    ```bash
    git clone https://github.com/aka-naman/clinical-qa-assistant.git
    cd clinical-qa-assistant
+2. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+3. **Run the Script**
+   ```bash
+   python qa_gpu_model.py
+4. **Launch Streamlit app**
+   ```bash
+   streamlit run clinical_qa_app.py
+
